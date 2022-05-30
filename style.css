@@ -21,7 +21,7 @@ body {
 .more { text-align: center;
 }
 }
-.centered-main-page-element {
+.main{
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -88,7 +88,7 @@ label[for="new-task"] {
     display: block;
     margin: 0 0 20px;
 }
-input#new-task {
+input#newTask {
     width: 318px;
 }
 
@@ -128,7 +128,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#completedTasks label {
     text-decoration: line-through
     color: #888;
 }
